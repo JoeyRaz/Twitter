@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messagerie Privée</title>
+    <link rel="stylesheet" href="style/messagerie.css">
+</head>
+<body>
+    <div class="container">
+      
+        <div class="nav">
+            <ul>
+                <li><span class="logo"><img src="image/logo.png" alt="Logo"></span></li>
+                <li><a href="/home.php">Accueil</a></li>
+                <li><a href="#">Rechercher</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="/messagerie.php" class="active">Messages</a></li>
+                <li><a href="/user.php">Profil</a></li>
+                <li><a href="#">Paramètres</a></li>
+            </ul>
+        </div>
+
+
+        <div class="main-content">
+   
+            <div class="conversations">
+                <h2>Messages</h2>
+                <div class="contact">
+                    <img src="image/user1.jpg" alt="Profil">
+                    <span class="username">@contact1</span>
+                </div>
+                <div class="contact">
+                    <img src="image/user2.jpg" alt="Profil">
+                    <span class="username">@contact2</span>
+                </div>
+                <div class="contact">
+                    <img src="image/user3.jpg" alt="Profil">
+                    <span class="username">@contact3</span>
+                </div>
+            </div>
+
+
+            <div class="chat">
+                <div class="chat-header">
+                    <img src="image/user1.jpg" alt="Profil">
+                    <span class="username">@contact1</span>
+                </div>
+                <div class="chat-box">
+                    <div class="message received">
+                        <p>Salut, comment vas-tu ?</p>
+                    </div>
+                    <div class="message sent">
+                        <p>Je vais bien et toi ? </p>
+                    </div>
+                </div>
+
+                <div class="message-form">
+                    <input type="text" placeholder="Écrire un message...">
+                    <button>Envoyer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

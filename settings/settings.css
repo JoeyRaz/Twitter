@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: #002d61;
+}
+
+button {
+    color: black;
+}
+
+.center .navbar {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav .navbar .center {
+    width: 33%;
+}
+
+.nav {
+    border-right: 1px solid #002d61;;
+    min-height: 100vh;
+}
+
+.navbar {
+    border-left: 1px solid #002d61;;
+}
+
+.nav ul {
+    padding-top: 70px;
+    padding-left: 170px;
+}
+
+.nav ul li {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 25px;
+    list-style: none;
+}
+
+.logo .accueil .rechercher .messages .profil .paramètres {
+    font-size: auto;
+}
+
+.navbar {
+    padding-top: 50px;
+}
+
+
+.navbar {
+    background-color:#002d61;;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.barre {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    background-color: #007bff;
+    color: rgb(19, 13, 13);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.mail, .profil, .bloquer, .sensible, .delete {
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.mail:hover, .profil:hover, .bloquer:hover, .sensible:hover, .delete:hover {
+    color: #007bff9d;
+}
+
+.mail ul, .profil ul, .bloquer ul {
+    list-style-type: none;
+    padding-left: 15px;
+    margin-top: 5px;
+    display: none;
+}
+
+.mail:hover ul, .profil:hover ul, .bloquer:hover ul {  
+display: block;
+}
+
+    
